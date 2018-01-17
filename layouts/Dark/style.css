@@ -1,0 +1,76 @@
+body,td,th {
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+}
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #999999;
+}
+a:active {
+	color: #999999;
+}
+.aniverssario {
+	color: #FF0000;
+}
+input {
+	background:#333333;
+	border:1px double #FFFFFF;
+	color:#FFFFFF;
+}
+textarea {
+	background:#333333;
+	border:1px double #FFFFFF;
+	color:#FFFFFF;
+	scrollbar-arrow-color:#ffffff;
+	scrollbar-3dlight-color:#b5b5b5;
+	scrollbar-highlight-color:#b5b5b5;
+	scrollbar-face-color:#000000;
+	scrollbar-shadow-color:#b5b5b5;
+	scrollbar-track-color:#b5b5b5;
+}
+select {
+	background:#333333;
+	border:1px double #FFFFFF;
+	color:#FFFFFF;
+}
+input:hover {
+	background:#666666;
+	border:1px double #FFFFFF;
+	color:#FFFFFF;
+}
+textarea:hover {
+	background:#666666;
+	border:1px double #FFFFFF;
+	color:#FFFFFF;
+	scrollbar-arrow-color:#ffffff;
+	scrollbar-3dlight-color:#b5b5b5;
+	scrollbar-highlight-color:#b5b5b5;
+	scrollbar-face-color:#000000;
+	scrollbar-shadow-color:#b5b5b5;
+	scrollbar-track-color:#b5b5b5;
+}
+select:hover {
+	background:#666666;
+	border:1px double #FFFFFF;
+	color:#FFFFFF;
+}
+.calendario {
+	border:15px;
+	border-style:ridge;
+}
+.calendario a:link {
+	color: #0000FF;
+}
+.calendario a:visited {
+	color: #0000FF;
+}
+.calendario a:active {
+	color: #0000FF;
+}

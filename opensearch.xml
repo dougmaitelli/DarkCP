@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Squize</ShortName>
+	<LongName>Squize</LongName>
+	<Description>Squize</Description>
+	<Attribution>
+		Squize Copyright 2010, All Rights Reserved.
+	</Attribution>
+	<Tags>Squize</Tags>
+	<Image height="16" width="16" type="image/x-icon">http://localhost/squize/favicon.ico</Image>
+	<Developer>DougM</Developer>
+	<Contact>email@email.com</Contact>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>pt-br</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Url type="text/html" method="get" template="http://localhost/squize/index.php">
+		<Param name="Cat" value="search" />
+		<Param name="Search" value="{searchTerms}" />
+	</Url>
+	<Url type="application/x-suggestions+json" template="http://localhost/squize/sugestions.php?s={searchTerms}"/>
+	<Query role="example" searchTerms="cat" />
+</OpenSearchDescription>
